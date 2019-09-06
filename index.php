@@ -62,7 +62,7 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <?php for($i = 1; $i < 20; $i++) { ?>
+                            <?php for($i = 1; $i < 21; $i++) { ?>
                                 <tr>
                                     <th scope="row"><?php echo $i; ?></th>
                                     <td>Planiyev Plany</td>
@@ -75,12 +75,12 @@
                                 </tr>
                             <?php }?>
                             </tbody>
-                            <tfoot>
+                            <!--<tfoot>
                             <tr>
                                 <td colspan="2"><b>Jemi:</b></td>
                                 <td colspan="3"><b>150 TMT</b></td>
                             </tr>
-                            </tfoot>
+                            </tfoot>-->
                         </table>
                     </div>
                 </div>
