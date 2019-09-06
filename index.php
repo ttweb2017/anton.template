@@ -12,15 +12,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Template">
-    <title>Template</title>
+    <meta name="description" content="Anton Template">
+    <title>Anton Template</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Template" />
-    <meta property="og:description" content="Template Description" />
+    <meta property="og:title" content="Anton Template" />
+    <meta property="og:description" content="Anton Template Description" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en" />
     <meta property="og:url" content="http://localhost/anton.template/" />
@@ -55,10 +55,10 @@
                             <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Name</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Address</th>
-                                <th scope="col">Action</th>
+                                <th scope="col">Ady</th>
+                                <th scope="col">Açyklama</th>
+                                <th scope="col">Salgysy</th>
+                                <th scope="col">Hereket</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -77,7 +77,7 @@
                             </tbody>
                             <tfoot>
                             <tr>
-                                <td colspan="2"><b>Total:</b></td>
+                                <td colspan="2"><b>Jemi:</b></td>
                                 <td colspan="3"><b>150 TMT</b></td>
                             </tr>
                             </tfoot>
@@ -91,14 +91,37 @@
             <script>
                 $(function () {
                     $('#userList').DataTable({
-
+                        "language": {
+                            "decimal":        "",
+                            "emptyTable":     "Görkezmek üçin belgi tapylmady",
+                            "info":           "_TOTAL_ setiriň _START_ bilen _END_ arasy görkezilýär",
+                            "infoEmpty":      "0 setiriň 0 bilen 0 arasy görkezilýär",
+                            "infoFiltered":   "(_MAX_ belgi içinden saýlandy)",
+                            "infoPostFix":    "",
+                            "thousands":      ",",
+                            "lengthMenu":     "_MENU_ sany görkez",
+                            "loadingRecords": "Indirilýär...",
+                            "processing":     "Işlenýär...",
+                            "search":         "Gözleg",
+                            "zeroRecords":    "Gabat gelýän belgi tapylmady",
+                            "paginate": {
+                                "first":      "Byrynjy",
+                                "last":       "Soňky",
+                                "next":       "Indiki",
+                                "previous":   "Öňki"
+                            },
+                            "aria": {
+                                "sortAscending":  ": sütün boýunça saýlamak üçin köpelen bölümini aktiwleşdirmek",
+                                "sortDescending": ": sütün boýunça saýlamak üçin azalan bölümini aktiwleşdirmek"
+                            }
+                        }
                     });
                 })
             </script>
         </main>
     </div>
     <footer>
-        <p id="copyright">&copy; Template <?php echo date("Y"); ?></p>
+        <p id="copyright">&copy; TTWeb <?php echo date("Y"); ?> Ähli haklar goragly.</p>
     </footer>
 </body>
 </html>
