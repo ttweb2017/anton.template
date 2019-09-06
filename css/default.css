@@ -1,0 +1,52 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+header {
+    background-color: #00a300;
+    height: 75px;
+    padding: 0 25px;
+}
+#logo {
+
+}
+#logo img {
+    width: 85px;
+}
+.wrapper {
+    height: calc(100vh - 125px);
+    overflow-y: scroll;
+}
+main{
+    margin: 20px 10px;
+}
+footer {
+    background-color: #00a300;
+    height: 50px;
+    padding: 0 25px;
+}
+#copyright {
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 19px;
+}
+/*.filter {
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table table thead th {
+    padding: .75rem;
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table table tbody tr {
+    text-align: center;
+}
+.table table tbody td, .table table tbody th {
+    padding: .75rem;
+    vertical-align: top;
+    border-bottom: 1px solid #dee2e6;
+}*/
